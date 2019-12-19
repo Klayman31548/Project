@@ -1,0 +1,432 @@
+
+
+
+.promoContainer{
+    padding: 0;
+    height: auto;
+    background-color: #87509c;
+}
+
+img{
+    width: auto;
+}
+
+.headerMenu{
+    
+    font-family: 'TitilliumWeb-Regular';
+    color: white;
+    
+}
+
+.icon{
+    
+    padding-left: 212px;
+    padding-top: 57px;
+    padding-right: 0px;
+    
+}
+
+
+
+.menu{
+    padding-top: 60px;
+}
+
+.menuUI{
+
+    font-size: 16px;
+    font-family: 'TitilliumWeb-Regular';
+    color: white;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+
+    
+}
+
+.menuBtn{
+    height: 32px;
+    width: 77px;
+    background-color: #87509c;
+    border-color:#87509c;
+    padding: 0px;
+    margin-left: 5px;
+    
+}
+
+.menuBtn:hover, .menuBtn:active{
+    background-color: #643a79 ;
+    border-color: #87509c ;
+}
+
+.menuBtn:focus, .menuBtn:visited {
+    background-color: #643a79 ;
+    border-color: #87509c ;
+    box-shadow: none;
+}
+
+.header{
+    padding-bottom: 100px;
+}
+
+.headerText{
+    padding-top: 145px;
+    text-align: center;
+    font-family:'TitilliumWeb-Bold';
+    font-size: 42px;
+    line-height: 48.82px;
+    padding-left: 267px;
+    padding-right: 267px;
+    color: white;
+    
+}
+
+.headerbotbtn{
+
+    padding-top: 54px;
+    
+}
+
+.botbtn{
+    width:293px; 
+    height: 70px;
+    background-color:  #eb7d4b;
+    font-family:'TitilliumWeb-SemiBold';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    color: white;
+    
+}
+
+.botbtn:active, .botbtn:hover, .botbtn:focus, .botbtn:visited{
+    background-color:  #eb7d4b;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.servicesContainer{
+    padding: 0;
+    height: auto;
+    background-color: #17c2a4;
+}
+
+.servicesTextPart{
+    height: 241px;
+}
+
+.servicesText{
+    height: 29px;
+    padding-top: 117px;
+    font-family: "TitilliumWeb-Bold";
+    font-size: 40px;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    border: none; 
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15; 
+    margin-top: 21px;
+    margin-bottom: 23px;
+}
+
+.servMidText{
+    margin: auto;
+    width: 603px;
+    height: 45px;
+    color: #ffffff;
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;  
+    text-transform: none; 
+}
+
+.servicesContPart{
+    /* padding-top: 78px; */
+    /* height: 506px; */  /* нужно сделать отступ для каждого рова сверзу для нормального переноса */
+    padding-left: 204px;
+    padding-right: 205px;
+    padding-bottom: 128px;
+}
+
+.servicesContPart div{
+    text-align: center;
+    padding-top: 78px;
+}
+
+.servicesContPart p{
+
+    color: #ffffff;
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-bottom: 27px;
+
+}
+
+.servicesContPart span {
+
+    color: #ffffff;
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+}
+
+.flag p{
+    padding-top: 62px;
+    
+}
+
+
+.pen p{
+    padding-top: 55px;
+    
+}
+
+.gears p{
+    padding-top: 60px;
+    
+}
+
+.rocket p{
+   padding-top: 53px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.skillsContainer{
+    padding: 0;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.skills{
+    /* height: 655px; */
+    padding-top: 117px;
+    background-color: #fff;
+}
+
+.skillsText{ 
+
+    
+    font-family: "TitilliumWeb-Bold";
+    font-size: 40px;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #3c4761;
+
+}
+
+.skillsMidText{
+    margin: auto;
+    width: 568px;
+    color: #3c4761;
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.36px;  
+    text-transform: none;
+}
+
+.skillsContPart{
+    
+    
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 122px;
+
+
+}
+
+.skillsContPart div{
+
+    text-align: center;
+    padding-top: 84px;
+}
+
+.skillsContPart p{
+
+    padding-top: 32px;
+    font-family:TitilliumWeb-Bold;
+    font-size: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolioContainer{
+
+    background-color: #ffdd99;
+    padding: 0;
+    height: auto;
+}
+
+.portfolioText{
+
+    padding-top: 120px;
+    font-family: "TitilliumWeb-Bold";
+    font-size: 40px;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #393939;
+
+}
+
+.portfolioMidText{
+ 
+    margin: auto;
+    width: 520px;
+    color: #393939;
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;  
+    text-transform: none;
+    
+
+}
+
+.portfolioContPart{
+    padding-left: 169px;
+    padding-right: 169px;
+    padding-bottom: 109px;
+}
+
+.portfolioContPart .col-12{ 
+
+    padding: 0px;
+
+}
+
+.portfolioContPart div{
+    
+    padding-top: 65px;
+    text-align: center;
+
+}
+
+.portfolioContPart p{
+
+    padding-top: 30px;
+    color: #393939;
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+}
+
+.portfolioBotBtn{
+
+    width: 293px;
+    height: 70px;
+    background-color: #17c2a4;
+    font-family:'TitilliumWeb-SemiBold';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    color: white;
+
+}
+
+.portfolioBotBtn:hover{
+    
+    background-color: #17c2a4;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.15);
+    color: rgb(11, 124, 96);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.portfolio{
+    height:1423px ;
+    background-color: #ffdd99;
+}
+
+.getInTouch{
+    height: 819px;
+    background-color: #3c5499;
+}
+
+.footer{
+    height: 112px;
+    padding-left: 251px;
+    padding-right: 251px;
+    background-color: #344b8e;
+}  */
