@@ -1,8 +1,10 @@
 
-.container-fluid{
+/* .container-fluid{
     max-width: 1440px;
-}
+} */
 
+
+/* Первый блок */
 .promoContainer{
     padding: 0;
     height: auto;
@@ -118,7 +120,7 @@ img{
 
 
 
-
+/* Второй блок */
 .servicesContainer{
     padding: 0;
     height: auto;
@@ -230,7 +232,7 @@ hr{
 
 
 
-
+/* Третий блок */
 .skillsContainer{
     padding: 0;
     height: auto;
@@ -306,7 +308,7 @@ hr{
 
 
 
-
+/* Четвертый блок */
 .portfolioContainer{
 
     background-color: #ffdd99;
@@ -451,7 +453,7 @@ hr{
 
 
 
-
+/* Пятый блок */
 
 .getInTouchContainer{
 
@@ -494,14 +496,41 @@ hr{
     padding-right: 290px; */
 }
 
-.topForm1{
+.topform1wrap{
+ 
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.topForm2wrap{
+     display: flex;
+     justify-content: flex-start;
+}
+
+
+.topForm1, .topForm2{
     max-width: 414px;
+    background-color: #273a71;
+    border-color:  #273a71;
+    color: white;
 }
 
 .midForm{
     width: 860px;
     height: 200px;
+    background-color: #273a71;
+    border-color:  #273a71;
+    color: white;
 }
+
+.topForm1:focus, .topForm2:focus, .midForm:focus{
+    background-color: #30bae7;
+    border-color:  #30bae7;
+    box-shadow: none;
+}
+
+
 
 .gitbbset{
     padding-top: 60px;
@@ -540,9 +569,9 @@ hr{
 }
 
 .getInTouchBotBtn:active{
-    background-color: rgb(4, 92, 173);
-    color:  #0539a8;
-    border-bottom: none;
+    background-color: #30bae7;
+    color:  rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 
